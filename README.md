@@ -1,7 +1,7 @@
 # Helicopter servo bus board
 This project is a PCB designed to facilitate wiring a helicopter servo bus to a drone flight controller.
 
-Mounting pattern: 20x20mm
+Mounting pattern: 16x16mm
 
 The flight controller in mind when designing this PCB was a [GHF13AIO](https://www.aliexpress.com/af/ghf13aio.html).
 This bus supports 3 servo outputs and so must be used for helicopters with a motor-driven tail connected to an ESC.
@@ -10,8 +10,8 @@ The connector footprints are for 1.25mm pitch connectors, such as Molex PicoBlad
 
 **Please read the [assembly instructions](#assembly-instructions) before ordering or use**
 
-![PCB render with connectors](images/kicad_4tUrzA8tJ4.png)
-![PCB render without connectors](images/kicad_ob5k4NSuuA.png)
+![PCB render with connectors](images/kicad_L0yJJJxECy.png)
+![PCB render without connectors](images/kicad_F6EDmw1HCb.png)
 
 ## Instructions for ordering
 
@@ -45,6 +45,6 @@ Test everything with a multimeter before soldering, and again before powering on
 1. Make sure that your intended servos have the control wire as pin 1 or 3.
 2. Solder your servo input connector, or use the solder pads directly. These are the control lines from your PWM servo outputs on your FC. If using solder pads you can solder directly to the wire pads, connector pads, or both. Use silicone glue to secure the wire.
 3. Solder your servo connectors so that the control wire is the topmost pin, the row labelled "1".
-4. Check the position of your servo positive and negative wires. They should line up with "V" (positive) and "G" (negative). If they do not (e.g. Blade servos) then you will need to install the power connector backwards.
+4. Check the position of your servo positive and negative wires. They should line up with "+" and "-". If they do not (e.g. Blade servos) then you will need to re-pin your power connector or wire it in reverse.
 5. Check the pins of your power connector and verify correct pins with a multimeter, then solder.
 6. Test all connections a final time.
