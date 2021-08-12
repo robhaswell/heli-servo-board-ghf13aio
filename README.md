@@ -8,14 +8,14 @@ This bus supports 3 servo outputs and so must be used for helicopters with a mot
 
 The connector footprints are for 1.25mm pitch connectors, such as Molex PicoBlade or JST 1.25.
 
-**Please read the assembly instructions before ordering or use**
+**Please read the [assembly instructions](#assembly-instructions) before ordering or use**
 
 ![PCB render with connectors](images/kicad_4tUrzA8tJ4.png)
 ![PCB render without connectors](images/kicad_ob5k4NSuuA.png)
 
 ## Instructions for ordering
 
-First: Read the assembly instructions and determine that this board is suitable for your setup.
+First: Read the [assembly instructions](#assembly-instructions) and determine that this board is suitable for your setup.
 
 You can order this PCB with a prototyping service.
 Below are instructions for using [JLCPCB](https://jlcpcb.com):
