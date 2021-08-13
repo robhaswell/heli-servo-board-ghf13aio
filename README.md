@@ -10,8 +10,8 @@ The connector footprints are for 1.25mm pitch connectors, such as Molex PicoBlad
 
 **Please read the [assembly instructions](#assembly-instructions) before ordering or use**
 
-![PCB render with connectors](images/kicad_L0yJJJxECy.png)
-![PCB render without connectors](images/kicad_F6EDmw1HCb.png)
+![PCB render with connectors](images/heli-servo-board-connectors.png)
+![PCB render without connectors](images/heli-servo-board.png)
 
 ## Instructions for ordering
 
